@@ -85,7 +85,7 @@ public class Commands{
         networkInterface = "Configuracion IP de Windows";
         attribute = "Nombre de host";
         System.out.println("NI: " + networkInterface);
-        System.out.println("    " + attribute + " : " + networkInterfacesTable.get(networkInterface).get(attribute));//Se obtiene el valor de la hashtable a traves del método get(), dando como parametro la clave que queremos recuperar:
+        System.out.println("    " + attribute + " : " + networkInterfacesTable.get(networkInterface).get(attribute));//Se obtiene el valor de la hashtable a traves del método get(), dando como parametro la clave que queremos recuperar
 
         networkInterface = "Adaptador de LAN inalambrica Wi-Fi:";
         attribute = "Direccion IPv4";
